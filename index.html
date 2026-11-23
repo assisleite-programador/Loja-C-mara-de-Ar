@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câmara de Ar Aro 18 Moto Honda Fan 125 150 160 Yamaha Dafra Suzuki Reforçada - Shopee Brasil</title>
+    <!-- Carregando Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carregando Fonte Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Carregando Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        shopee: {
+                            orange: '#EE4D2D',
+                            orangeHover: '#D73211',
+                            orangeLight: '#FFF5F1',
+                            yellow: '#FFCE3D',
+                            teal: '#00BFA5',
+                            bg: '#F5F5F5',
+                            text: '#222222',
+                            muted: '#757575'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #F5F5F5;
+            color: #222222;
+            overflow-x: hidden;
+        }
+        
+        /* Animação sutil de destaque no botão principal de compra */
+        @keyframes pulse-shopee {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 4px 14px 0 rgba(238, 77, 45, 0.35);
+            }
+            50% {
+                transform: scale(1.012);
+                box-shadow: 0 6px 20px rgba(238, 77, 45, 0.55);
+            }
+        }
+        .btn-shopee-pulse {
+            animation: pulse-shopee 2.2s infinite;
+        }
+
+        /* Ocultar barra de rolagem horizontal em miniaturas e filtros */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="antialiased pb-20 md:pb-12">
+
+    <!-- ===================================================================== -->
+    <!-- 1. CABEÇALHO OFICIAL ESTILO SHOPEE BRASIL                              -->
+    <!-- ===================================================================== -->
+    <header class="sticky top-0 z-40 shadow-sm">
+        <!-- Barra Superior de Vantagens & Cronômetro -->
+        <div class="bg-[#D0011B] sm:bg-gradient-to-r sm:from-[#EE4D2D] sm:to-[#FF6633] text-white py-1.5 px-3 border-b border-white/15">
+            <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1 text-xs">
+                <div class="flex items-center gap-2 font-medium">
+                    <span class="bg-white text-shopee-orange font-extrabold px-1.5 py-0.5 rounded text-[10px] uppercase tracking-wider flex items-center gap-1">
+                        <i data-lucide="truck" class="w-3 h-3"></i> Frete Grátis
+                    </span>
+                    <span>Cupom de <strong>FRETE GRÁTIS</strong> + Desconto Relâmpago ativados!</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="uppercase font-bold tracking-wider text-yellow-200 flex items-center gap-1 text-[11px]">
+                        <i data-lucide="zap" class="w-3.5 h-3.5 fill-yellow-300 text-yellow-300"></i> Oferta expira em:
+                    </span>
+                    <div class="flex items-center gap-1 font-mono font-bold text-xs">
+                        <span id="top-hours" class="bg-black/85 text-white px-1.5 py-0.5 rounded">01</span>:
+                        <span id="top-minutes" class="bg-black/85 text-white px-1.5 py-0.5 rounded">24</span>:
+                        <span id="top-seconds" class="bg-black/85 text-white px-1.5 py-0.5 rounded">50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra Principal Laranja Shopee -->
+        <div class="bg-gradient-to-b from-[#EE4D2D] to-[#FF6533] text-white py-3 px-4">
+            <div class="max-w-6xl mx-auto flex items-center justify-between gap-3 sm:gap-6">
+                <!-- Logo Estilo Shopee -->
+                <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 shrink-0 group">
+                    <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-white text-shopee-orange flex items-center justify-center shadow-sm group-hover:scale-105 transition">
+                        <i data-lucide="shopping-bag" class="w-5 h-5 sm:w-6 sm:h-6"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-1.5">
+                            <span class="font-extrabold text-lg sm:text-xl tracking-tight leading-none">Shopee</span>
+                            <span class="bg-white/20 text-white text-[10px] font-bold px-1.5 py-0.5 rounded uppercase">Indicado</span>
+                        </div>
+                        <span class="text-[10px] text-orange-100 hidden sm:block">Moto Peças • Envio Imediato SP</span>
+                    </div>
+                </a>
+
+                <!-- Barra de Busca Estilizada (Clicável para o anúncio) -->
+                <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="hidden md:flex flex-1 max-w-xl bg-white rounded-sm p-1 items-center justify-between shadow-inner cursor-pointer">
+                    <span class="text-xs text-gray-600 px-3 truncate">Câmara de Ar Aro 18 Moto Honda Fan 125 150 160 Yamaha Dafra Suzuki Reforçada...</span>
+                    <span class="bg-shopee-orange hover:bg-shopee-orangeHover text-white px-4 py-1.5 rounded-sm flex items-center justify-center transition">
+                        <i data-lucide="search" class="w-4 h-4"></i>
+                    </span>
+                </a>
+
+                <!-- Botão Cupom Topo -->
+                <div class="flex items-center gap-3 shrink-0">
+                    <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="bg-white text-shopee-orange hover:bg-orange-50 text-xs sm:text-sm font-extrabold px-3.5 sm:px-4 py-2 rounded shadow-sm flex items-center gap-1.5 transition">
+                        <i data-lucide="ticket" class="w-4 h-4"></i>
+                        <span>Cupom R$ 17,99</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===================================================================== -->
+    <!-- 2. BREADCRUMB EXATO DA SHOPEE                                         -->
+    <!-- ===================================================================== -->
+    <nav aria-label="Breadcrumb" class="max-w-6xl mx-auto px-4 py-3 text-xs text-gray-500 flex items-center gap-1.5 overflow-x-auto no-scrollbar whitespace-nowrap">
+        <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="text-[#0055AA] hover:underline">Shopee</a>
+        <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gray-400 shrink-0"></i>
+        <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="text-[#0055AA] hover:underline">Acessórios para Veículos</a>
+        <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gray-400 shrink-0"></i>
+        <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="text-[#0055AA] hover:underline">Peças e Acessórios para Motos</a>
+        <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gray-400 shrink-0"></i>
+        <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="text-[#0055AA] hover:underline">Pneus e Câmaras de Ar</a>
+        <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-gray-400 shrink-0"></i>
+        <span class="text-gray-700 font-medium truncate">Câmara de Ar Aro 18 Moto Honda Fan 125 150 160 Yamaha Dafra Suzuki Reforçada</span>
+    </nav>
+
+    <!-- ===================================================================== -->
+    <!-- CONTEÚDO PRINCIPAL                                                    -->
+    <!-- ===================================================================== -->
+    <main class="max-w-6xl mx-auto px-2 sm:px-4 space-y-4">
+        
+        <!-- 3. BOX PRINCIPAL DO PRODUTO (VÍDEO EM DESTAQUE + DADOS DE COMPRA) -->
+        <section class="bg-white rounded-sm shadow-sm p-3 sm:p-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+                
+                <!-- COLUNA ESQUERDA: PLAYER DE VÍDEO PRINCIPAL + 4 MINIATURAS -->
+                <div class="lg:col-span-5 flex flex-col gap-3">
+                    <!-- Container Principal (Vídeo por padrão ou Foto ampliada) -->
+                    <div class="relative aspect-square w-full bg-black rounded-sm overflow-hidden border border-gray-200 group">
+                        <!-- Selo de Desconto -->
+                        <div class="absolute top-0 right-0 z-20 bg-shopee-yellow text-shopee-orange font-extrabold px-2.5 py-1 text-center leading-tight rounded-bl-md shadow-sm pointer-events-none">
+                            <span class="block text-sm">10%</span>
+                            <span class="block text-[10px] text-white bg-shopee-orange px-1 rounded-sm uppercase">OFF</span>
+                        </div>
+
+                        <!-- Selo Frete Grátis (aparece quando estiver vendo foto, ou discreto no canto superior esquerdo no vídeo) -->
+                        <div class="absolute top-3 left-3 z-20 bg-shopee-teal text-white text-[11px] font-bold px-2.5 py-1 rounded-sm shadow flex items-center gap-1 pointer-events-none">
+                            <i data-lucide="truck" class="w-3.5 h-3.5"></i> FRETE GRÁTIS
+                        </div>
+
+                        <!-- MODO 1: PLAYER DE VÍDEO OFICIAL (ATIVO POR PADRÃO) -->
+                        <div id="video-stage" class="w-full h-full flex flex-col bg-black relative">
+                            <video id="product-video"
+                                   class="w-full h-full object-contain bg-black"
+                                   src="https://down-ws-br.vod.susercontent.com/api/v4/11110105/mms/br-11110105-6v6x5-mrt2miwof5z8d5.16000081786557700.mp4"
+                                   poster="https://down-br.img.susercontent.com/file/sg-11134201-8258x-mrt2j7w5sdfs9c@resize_w450_nl.webp"
+                                   controls
+                                   autoplay
+                                   muted
+                                   loop
+                                   playsinline
+                                   onerror="handleVideoFallback()">
+                                Seu navegador não suporta a reprodução de vídeo.
+                            </video>
+
+                            <!-- Fallback caso o navegador/rede bloqueie o vídeo direto -->
+                            <div id="video-fallback" class="hidden absolute inset-0 bg-zinc-900 flex flex-col items-center justify-center p-4 text-center">
+                                <img src="https://down-br.img.susercontent.com/file/sg-11134201-8258x-mrt2j7w5sdfs9c@resize_w450_nl.webp" 
+                                     onerror="this.src='https://placehold.co/600x600/18181B/EE4D2D?text=Camara+de+Ar+Aro+18+Reforcada'"
+                                     alt="Câmara de Ar Aro 18 Reforçada" 
+                                     class="w-44 h-44 object-contain rounded mb-3">
+                                <p class="text-white text-xs sm:text-sm font-semibold mb-2">Assista ao vídeo demonstrativo direto no anúncio oficial da Shopee</p>
+                                <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="bg-shopee-orange hover:bg-shopee-orangeHover text-white text-xs font-bold px-4 py-2 rounded-sm inline-flex items-center gap-1.5 shadow">
+                                    <i data-lucide="play-circle" class="w-4 h-4"></i>
+                                    <span>Assistir Vídeo e Comprar na Shopee</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- MODO 2: IMAGEM AMPLIADA CLICÁVEL (EXIBIDA AO SELECIONAR MINIATURAS DE FOTO) -->
+                        <a id="image-stage" href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" title="Clique para ver o anúncio oficial na Shopee" class="hidden w-full h-full bg-white cursor-pointer relative">
+                            <img id="main-product-image" 
+                                 src="https://down-br.img.susercontent.com/file/sg-11134201-8258x-mrt2j7w5sdfs9c@resize_w450_nl.webp" 
+                                 onerror="this.src='https://placehold.co/800x800/18181B/EE4D2D?text=Camara+de+Ar+Aro+18+Reforcada'"
+                                 alt="Câmara de Ar Aro 18 Moto Honda Fan 125 150 160 Yamaha Dafra Suzuki Reforçada" 
+                                 class="w-full h-full object-contain bg-white transition-transform duration-300 group-hover:scale-105">
+                            <span class="absolute bottom-3 right-3 bg-black/70 text-white text-[11px] font-medium px-2.5 py-1 rounded-sm flex items-center gap-1">
+                                <i data-lucide="external-link" class="w-3 h-3"></i> Clique para abrir na Shopee
+                            </span>
+                        </a>
+                    </div>
+
+                    <!-- Faixa de Chamada para Ação Direta logo abaixo do Player (Sem obstruir os controles do vídeo) -->
+                    <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="bg-shopee-orangeLight hover:bg-orange-100 border border-shopee-orange/40 text-shopee-orange rounded-sm px-3 py-2 flex items-center justify-between text-xs font-bold transition">
+                        <span class="flex items-center gap-1.5">
+                            <i data-lucide="play-circle" class="w-4 h-4 fill-shopee-orange text-white shrink-0"></i>
+                            <span>Viu a resistência no vídeo? Garanta com cupom!</span>
+                        </span>
+                        <span class="underline whitespace-nowrap ml-2">Ver na Shopee &gt;</span>
+                    </a>
+
+                    <!-- 4 MINIATURAS (1 VÍDEO + 3 FOTOS OFICIAIS) -->
+                    <div id="thumbnails-container" class="grid grid-cols-4 gap-2 pt-0.5">
+                        <!-- Miniatura 1: Vídeo Oficial (Ativa por padrão) -->
+                        <button type="button" onclick="selectMedia(0)" id="thumb-0" class="media-thumb relative aspect-square rounded-sm overflow-hidden border-2 border-shopee-orange ring-1 ring-shopee-orange bg-black group">
+                            <img src="https://down-br.img.susercontent.com/file/sg-11134201-8258x-mrt2j7w5sdfs9c@resize_w450_nl.webp" 
+                                 onerror="this.src='https://placehold.co/200x200/18181B/EE4D2D?text=Video'"
+                                 alt="Vídeo Oficial Câmara de Ar Aro 18" 
+                                 class="w-full h-full object-cover opacity-75 group-hover:opacity-90 transition">
+                            <div class="absolute inset-0 flex flex-col items-center justify-center bg-black/35 text-white">
+                                <div class="w-8 h-8 rounded-full bg-shopee-orange/95 flex items-center justify-center shadow">
+                                    <i data-lucide="play" class="w-4 h-4 fill-white text-white ml-0.5"></i>
+                                </div>
+                                <span class="text-[10px] font-bold uppercase tracking-wider mt-1 drop-shadow">Vídeo</span>
+                            </div>
+                        </button>
+
+                        <!-- Miniatura 2: Foto 1 -->
+                        <button type="button" onclick="selectMedia(1)" id="thumb-1" class="media-thumb relative aspect-square rounded-sm overflow-hidden border border-gray-200 opacity-85 hover:opacity-100 bg-white transition">
+                            <img src="https://down-br.img.susercontent.com/file/sg-11134201-8258x-mrt2j7w5sdfs9c@resize_w450_nl.webp" 
+                                 onerror="this.src='https://placehold.co/200x200/18181B/EE4D2D?text=Foto+1'"
+                                 alt="Câmara de Ar Aro 18 - Foto 1" 
+                                 class="w-full h-full object-cover">
+                        </button>
+
+                        <!-- Miniatura 3: Foto 2 -->
+                        <button type="button" onclick="selectMedia(2)" id="thumb-2" class="media-thumb relative aspect-square rounded-sm overflow-hidden border border-gray-200 opacity-85 hover:opacity-100 bg-white transition">
+                            <img src="https://down-br.img.susercontent.com/file/br-11134207-820l5-mrt28uxi2cxwe6@resize_w450_nl.webp" 
+                                 onerror="this.src='https://placehold.co/200x200/18181B/EE4D2D?text=Foto+2'"
+                                 alt="Câmara de Ar Aro 18 - Foto 2" 
+                                 class="w-full h-full object-cover">
+                        </button>
+
+                        <!-- Miniatura 4: Foto 3 -->
+                        <button type="button" onclick="selectMedia(3)" id="thumb-3" class="media-thumb relative aspect-square rounded-sm overflow-hidden border border-gray-200 opacity-85 hover:opacity-100 bg-white transition">
+                            <img src="https://down-br.img.susercontent.com/file/br-11134207-820lq-mrt28uxi3ric1e@resize_w450_nl.webp" 
+                                 onerror="this.src='https://placehold.co/200x200/18181B/EE4D2D?text=Foto+3'"
+                                 alt="Câmara de Ar Aro 18 - Foto 3" 
+                                 class="w-full h-full object-cover">
+                        </button>
+                    </div>
+
+                    <!-- Compartilhar & Favoritar -->
+                    <div class="flex items-center justify-between pt-2 px-1 text-xs sm:text-sm text-gray-600 border-t border-gray-100">
+                        <div class="flex items-center gap-2">
+                            <span>Compartilhar:</span>
+                            <button type="button" onclick="copyPageLink()" class="w-7 h-7 rounded-full bg-emerald-500 text-white flex items-center justify-center hover:opacity-90 transition" title="Copiar link da oferta">
+                                <i data-lucide="share-2" class="w-3.5 h-3.5"></i>
+                            </button>
+                        </div>
+                        <button type="button" id="fav-btn" onclick="toggleFavorite()" class="flex items-center gap-1.5 text-gray-700 hover:text-shopee-orange transition">
+                            <i id="fav-icon" data-lucide="heart" class="w-4 h-4 text-shopee-orange fill-shopee-orange"></i>
+                            <span>Favoritado (<span id="fav-count">2,8 mil</span>)</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- COLUNA DIREITA: INFORMAÇÕES EXATAS DO ANÚNCIO -->
+                <div class="lg:col-span-7 flex flex-col justify-between space-y-4">
+                    
+                    <!-- Título e Selo Indicado -->
+                    <div>
+                        <h1 class="text-lg sm:text-xl font-medium text-gray-900 leading-snug">
+                            <span class="inline-block align-middle bg-shopee-orange text-white text-xs font-bold px-1.5 py-0.5 rounded-sm mr-1.5 -mt-0.5">Indicado</span>
+                            Câmara de Ar Aro 18 Moto Honda Fan 125 150 160 Yamaha Dafra Suzuki Reforçada
+                        </h1>
+
+                        <!-- Métricas de Prova Social -->
+                        <div class="flex flex-wrap items-center justify-between gap-2 mt-3 text-xs sm:text-sm">
+                            <div class="flex flex-wrap items-center gap-3 sm:gap-4">
+                                <a href="#avaliacoes" class="flex items-center gap-1 text-shopee-orange font-bold border-b border-shopee-orange pb-0.5">
+                                    <span class="text-base">4.9</span>
+                                    <div class="flex items-center text-shopee-orange">
+                                        <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                                        <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                                        <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                                        <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                                        <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                                    </div>
+                                </a>
+                                <span class="text-gray-300">|</span>
+                                <a href="#avaliacoes" class="text-gray-700 hover:text-shopee-orange">
+                                    <strong class="border-b border-gray-800 text-gray-900">Avaliações</strong> <span class="text-gray-500">de motociclistas e mecânicos</span>
+                                </a>
+                                <span class="text-gray-300">|</span>
+                                <div class="text-shopee-teal font-semibold flex items-center gap-1">
+                                    <i data-lucide="flame" class="w-4 h-4 fill-shopee-orange text-shopee-orange"></i>
+                                    <span>Alta saída</span>
+                                </div>
+                            </div>
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-400 hover:text-gray-600">
+                                Denunciar
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOX DE PREÇO EXATO (R$ 17,99 COM CUPOM) -->
+                    <div class="rounded-sm overflow-hidden border border-orange-100">
+                        <div class="bg-gradient-to-r from-[#EE4D2D] via-[#F53D2D] to-[#FF6633] px-4 py-1.5 flex flex-wrap items-center justify-between gap-2 text-white">
+                            <div class="flex items-center gap-1.5 font-extrabold tracking-wide text-xs sm:text-sm italic">
+                                <i data-lucide="zap" class="w-4 h-4 fill-yellow-300 text-yellow-300"></i>
+                                <span>OFERTA RELÂMPAGO COM CUPOM</span>
+                            </div>
+                            <div class="flex items-center gap-1.5 text-xs">
+                                <span class="uppercase font-medium opacity-95">Termina em</span>
+                                <div class="flex items-center gap-1 font-mono font-bold">
+                                    <span id="box-hours" class="bg-gray-900 text-white px-1.5 py-0.5 rounded">01</span>:
+                                    <span id="box-minutes" class="bg-gray-900 text-white px-1.5 py-0.5 rounded">24</span>:
+                                    <span id="box-seconds" class="bg-gray-900 text-white px-1.5 py-0.5 rounded">50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-[#FAFAFA] p-4 space-y-1.5">
+                            <div class="flex flex-wrap items-baseline gap-2.5">
+                                <span class="text-gray-400 line-through text-sm">R$ 19,99</span>
+                                <span id="display-price" class="text-3xl sm:text-4xl font-bold text-shopee-orange">R$ 17,99</span>
+                                <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="bg-shopee-orange text-white font-bold text-xs px-2 py-0.5 rounded-sm hover:bg-shopee-orangeHover inline-flex items-center gap-0.5 transition">
+                                    <span>com cupom</span>
+                                    <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                                </a>
+                            </div>
+                            <p class="text-xs text-gray-500">
+                                ou <span id="display-old-price" class="text-gray-700 font-medium">R$ 19,99</span> sem cupom em outros métodos de pagamento
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- TABELA DE FRETE E ENVIADO DE -->
+                    <div class="space-y-3 text-xs sm:text-sm border-b border-gray-100 pb-4">
+                        <div class="flex items-start gap-3">
+                            <span class="text-gray-500 w-32 shrink-0">Enviado de</span>
+                            <div class="space-y-1.5 flex-1">
+                                <div class="flex items-center gap-2 text-gray-800 font-medium">
+                                    <i data-lucide="truck" class="w-4 h-4 text-shopee-teal shrink-0"></i>
+                                    <span>Enviado de <strong>São Paulo, São Paulo</strong></span>
+                                </div>
+                                <div class="grid grid-cols-2 max-w-xs gap-y-1 text-xs pt-0.5">
+                                    <span class="text-gray-500">Frete</span>
+                                    <div>
+                                        <span class="text-gray-400 line-through mr-1">R$ 9,06</span>
+                                        <span class="text-gray-900 font-bold">R$ 0,00</span>
+                                    </div>
+                                </div>
+                                <p class="text-xs text-gray-600 font-medium">
+                                    <span class="text-shopee-teal font-bold">Frete grátis</span> com cupom
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SELETORES INTERATIVOS: COMPATIBILIDADE / OPÇÃO E QUANTIDADE -->
+                    <div class="space-y-4">
+                        <!-- Modelos Selecionáveis -->
+                        <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3">
+                            <span class="text-xs sm:text-sm text-gray-500 w-32 shrink-0 sm:pt-2">Opção / Modelo</span>
+                            <div class="flex flex-wrap items-center gap-2.5" id="model-options">
+                                <button type="button" onclick="selectModel(this, '17,99', '19,99')" class="variant-model-btn border-2 border-shopee-orange bg-shopee-orangeLight text-shopee-orange font-semibold px-3.5 py-2 rounded-sm text-xs sm:text-sm flex items-center gap-2 text-left transition">
+                                    <img src="https://down-br.img.susercontent.com/file/sg-11134201-8258x-mrt2j7w5sdfs9c@resize_w450_nl.webp" onerror="this.style.display='none'" alt="Aro 18" class="w-5 h-5 object-contain rounded-sm shrink-0">
+                                    <span>Aro 18 - Traseiro/Dianteiro (2.75-18 / 90/90-18)</span>
+                                </button>
+                                <button type="button" onclick="selectModel(this, '34,90', '39,98')" class="variant-model-btn border border-gray-300 bg-white hover:border-shopee-orange text-gray-700 font-medium px-3.5 py-2 rounded-sm text-xs sm:text-sm flex items-center gap-2 text-left transition">
+                                    <img src="https://down-br.img.susercontent.com/file/br-11134207-820l5-mrt28uxi2cxwe6@resize_w450_nl.webp" onerror="this.style.display='none'" alt="Kit 2" class="w-5 h-5 object-contain rounded-sm shrink-0">
+                                    <span>Kit 2 Unidades Aro 18 (Economize)</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Quantidade -->
+                        <div class="flex items-center gap-3">
+                            <span class="text-xs sm:text-sm text-gray-500 w-32 shrink-0">Quantidade</span>
+                            <div class="flex items-center gap-4">
+                                <div class="inline-flex items-center border border-gray-300 rounded-sm bg-white">
+                                    <button type="button" onclick="changeQty(-1)" class="w-8 h-8 flex items-center justify-center text-gray-600 hover:bg-gray-100 transition font-bold">−</button>
+                                    <span id="qty-value" class="w-10 text-center text-sm font-medium text-gray-800 border-x border-gray-300 py-1">1</span>
+                                    <button type="button" onclick="changeQty(1)" class="w-8 h-8 flex items-center justify-center text-gray-600 hover:bg-gray-100 transition font-bold">+</button>
+                                </div>
+                                <span class="text-xs text-gray-500 font-medium">Estoque disponível • Pronta entrega</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOTÕES PRINCIPAIS DE AÇÃO (APONTANDO PARA https://s.shopee.com.br/3LSdTvEmzx) -->
+                    <div class="pt-2 space-y-3">
+                        <div class="grid grid-cols-1 sm:grid-cols-12 gap-3">
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="sm:col-span-5 border border-shopee-orange bg-shopee-orangeLight hover:bg-orange-100 text-shopee-orange font-semibold text-sm py-3.5 px-4 rounded-sm flex items-center justify-center gap-2 transition">
+                                <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+                                <span>Adicionar ao Carrinho</span>
+                            </a>
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="btn-shopee-pulse sm:col-span-7 bg-shopee-orange hover:bg-shopee-orangeHover text-white font-extrabold text-sm sm:text-base py-3.5 px-6 rounded-sm shadow-md flex flex-col items-center justify-center leading-tight transition">
+                                <span>Comprar com Cupom</span>
+                                <span id="cta-btn-price" class="text-xs sm:text-sm font-bold text-yellow-100">R$ 17,99</span>
+                            </a>
+                        </div>
+
+                        <!-- Selos de Confiança -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-2 border-t border-gray-100 text-[11px] sm:text-xs text-gray-600">
+                            <div class="flex items-center gap-1.5 bg-gray-50 px-2.5 py-2 rounded-sm">
+                                <i data-lucide="shield-check" class="w-4 h-4 text-shopee-orange shrink-0"></i>
+                                <span><strong>Garantia Shopee</strong> Protegida</span>
+                            </div>
+                            <div class="flex items-center gap-1.5 bg-gray-50 px-2.5 py-2 rounded-sm">
+                                <i data-lucide="zap" class="w-4 h-4 text-shopee-teal shrink-0"></i>
+                                <span><strong>Envio Rápido</strong> de São Paulo</span>
+                            </div>
+                            <div class="flex items-center gap-1.5 bg-gray-50 px-2.5 py-2 rounded-sm">
+                                <i data-lucide="award" class="w-4 h-4 text-amber-500 shrink-0"></i>
+                                <span><strong>Borracha Butílica</strong> Reforçada</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================== -->
+        <!-- 4. ESPECIFICAÇÕES DO PRODUTO & DESCRIÇÃO DETALHADA                    -->
+        <!-- ===================================================================== -->
+        <section class="bg-white rounded-sm shadow-sm p-4 sm:p-6 space-y-6">
+            <!-- Tabela Especificações do Produto -->
+            <div>
+                <div class="bg-[#FAFAFA] px-4 py-3 text-sm sm:text-base font-bold text-gray-900 uppercase tracking-wide mb-4">
+                    Especificações do Produto
+                </div>
+                <div class="px-2 sm:px-4 space-y-3 text-xs sm:text-sm">
+                    <div class="grid grid-cols-12 gap-2">
+                        <span class="col-span-5 sm:col-span-3 text-gray-500">Categoria</span>
+                        <div class="col-span-7 sm:col-span-9 text-[#0055AA] flex flex-wrap items-center gap-1">
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="hover:underline">Shopee</a>
+                            <span>&gt;</span>
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="hover:underline">Acessórios para Veículos</a>
+                            <span>&gt;</span>
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="hover:underline">Peças e Acessórios para Motos</a>
+                            <span>&gt;</span>
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="hover:underline">Pneus e Câmaras de Ar</a>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-12 gap-2">
+                        <span class="col-span-5 sm:col-span-3 text-gray-500">Aro</span>
+                        <span class="col-span-7 sm:col-span-9 text-gray-800 font-semibold">18 (Medidas 2.75-18 / 3.00-18 / 90/90-18)</span>
+                    </div>
+                    <div class="grid grid-cols-12 gap-2">
+                        <span class="col-span-5 sm:col-span-3 text-gray-500">Compatibilidade</span>
+                        <span class="col-span-7 sm:col-span-9 text-gray-800">Honda CG Titan / Fan 125 150 160 / Start, Yamaha Factor / YBR 125 / Fazer 150, Suzuki Yes 125 / Intruder, Dafra Speed 150 / Riva</span>
+                    </div>
+                    <div class="grid grid-cols-12 gap-2">
+                        <span class="col-span-5 sm:col-span-3 text-gray-500">Tipo de Válvula</span>
+                        <span class="col-span-7 sm:col-span-9 text-gray-800 font-medium">TR4 Reta Reforçada (Bico de Metal com Porca e Arruela)</span>
+                    </div>
+                    <div class="grid grid-cols-12 gap-2">
+                        <span class="col-span-5 sm:col-span-3 text-gray-500">Material</span>
+                        <span class="col-span-7 sm:col-span-9 text-gray-800">Borracha Natural e Butílica de Alta Espessura</span>
+                    </div>
+                    <div class="grid grid-cols-12 gap-2">
+                        <span class="col-span-5 sm:col-span-3 text-gray-500">Estoque</span>
+                        <span class="col-span-7 sm:col-span-9 text-gray-800 font-medium">Disponível para envio imediato</span>
+                    </div>
+                    <div class="grid grid-cols-12 gap-2">
+                        <span class="col-span-5 sm:col-span-3 text-gray-500">Envio de</span>
+                        <span class="col-span-7 sm:col-span-9 text-gray-800 font-medium">São Paulo, SP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Descrição Detalhada Focada em Motoboys, Uso Diário e Oficinas -->
+            <div>
+                <div class="bg-[#FAFAFA] px-4 py-3 text-sm sm:text-base font-bold text-gray-900 uppercase tracking-wide mb-4">
+                    Descrição do Produto
+                </div>
+                <div class="px-2 sm:px-4 text-xs sm:text-sm text-gray-700 leading-relaxed space-y-5">
+                    <div class="space-y-2">
+                        <h2 class="text-base sm:text-lg font-bold text-gray-900">
+                            Câmara de Ar Aro 18 Reforçada – Máxima Resistência para Quem Roda Todo Dia!
+                        </h2>
+                        <p>
+                            Projetada especialmente para suportar o ritmo intenso das ruas brasileiras, buracos, lombadas e o dia a dia de <strong>motoboys, entregadores, trabalhadores e oficinas mecânicas</strong>. Fabricada com composto especial de <strong>borracha natural e butílica de alta espessura</strong>, oferece elasticidade superior e evita rasgos fáceis na montagem ou no impacto.
+                        </p>
+                    </div>
+
+                    <!-- Diferenciais em Destaque -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        <div class="bg-orange-50/60 border border-orange-100 p-3.5 rounded-sm">
+                            <p class="font-bold text-gray-900 flex items-center gap-1.5">
+                                <i data-lucide="shield" class="w-4 h-4 text-shopee-orange"></i> Alta Resistência a Furos e Calor
+                            </p>
+                            <p class="text-gray-600 mt-1 text-xs">Parede reforçada que suporta altas temperaturas geradas pelo atrito do pneu no asfalto quente sem ressecar.</p>
+                        </div>
+                        <div class="bg-orange-50/60 border border-orange-100 p-3.5 rounded-sm">
+                            <p class="font-bold text-gray-900 flex items-center gap-1.5">
+                                <i data-lucide="gauge" class="w-4 h-4 text-shopee-orange"></i> Retenção Prolongada de Pressão
+                            </p>
+                            <p class="text-gray-600 mt-1 text-xs">Borracha butílica de baixa permeabilidade que mantém a calibragem estável por muito mais tempo.</p>
+                        </div>
+                        <div class="bg-orange-50/60 border border-orange-100 p-3.5 rounded-sm">
+                            <p class="font-bold text-gray-900 flex items-center gap-1.5">
+                                <i data-lucide="wrench" class="w-4 h-4 text-shopee-orange"></i> Válvula TR4 Vulcanizada
+                            </p>
+                            <p class="text-gray-600 mt-1 text-xs">Bico reto metálico com base vulcanizada reforçada, evitando vazamentos no pé da válvula durante a calibragem.</p>
+                        </div>
+                    </div>
+
+                    <!-- Lista de Motos Compatíveis -->
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-gray-900 text-sm sm:text-base">Principais Motos Compatíveis (Aro 18):</h3>
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 pl-1">
+                            <li class="flex items-center gap-2"><span class="text-shopee-orange font-bold">✓</span> <span><strong>Honda:</strong> CG 125 / 150 / 160 (Titan, Fan, Start, Cargo), Today, Turuna</span></li>
+                            <li class="flex items-center gap-2"><span class="text-shopee-orange font-bold">✓</span> <span><strong>Yamaha:</strong> YBR 125, Factor 125 / 150, Fazer 150, RD 135</span></li>
+                            <li class="flex items-center gap-2"><span class="text-shopee-orange font-bold">✓</span> <span><strong>Suzuki:</strong> Yes 125, Intruder 125, Katana 125, GSR 150i</span></li>
+                            <li class="flex items-center gap-2"><span class="text-shopee-orange font-bold">✓</span> <span><strong>Dafra & Outras:</strong> Speed 150, Riva 150, Kansas 150, Shineray/Kasinski Aro 18</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Custo-Benefício Imbatível -->
+                    <div class="bg-gray-50 border border-gray-200 p-4 rounded-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <div>
+                            <p class="font-bold text-gray-900 text-sm">Custo-Benefício Imbatível para Uso Próprio ou Revenda em Oficina</p>
+                            <p class="text-xs text-gray-600 mt-0.5">Por apenas <strong>R$ 17,99 com cupom</strong> e Frete Grátis, você garante peça nova direto de São Paulo sem pagar caro em moto peças.</p>
+                        </div>
+                        <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="shrink-0 inline-flex items-center justify-center gap-2 bg-shopee-orange hover:bg-shopee-orangeHover text-white font-bold text-xs sm:text-sm px-5 py-3 rounded-sm shadow transition">
+                            <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+                            <span>GARANTIR POR R$ 17,99 NA SHOPEE</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================== -->
+        <!-- 5. AVALIAÇÕES DE MOTOCICLISTAS E MECÂNICOS (4.9 DE 5)                 -->
+        <!-- ===================================================================== -->
+        <section id="avaliacoes" class="bg-white rounded-sm shadow-sm p-4 sm:p-6">
+            <h2 class="text-base sm:text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">
+                Avaliações do Produto
+            </h2>
+
+            <!-- Resumo das Notas -->
+            <div class="bg-[#FFFBF8] border border-[#F9EDE5] rounded-sm p-4 sm:p-6 mb-6 flex flex-col md:flex-row items-start md:items-center gap-6">
+                <div class="text-center md:text-left shrink-0">
+                    <div class="text-shopee-orange font-extrabold text-3xl sm:text-4xl">
+                        4.9 <span class="text-base sm:text-lg font-medium">de 5</span>
+                    </div>
+                    <div class="flex items-center justify-center md:justify-start gap-1 text-shopee-orange mt-1">
+                        <i data-lucide="star" class="w-4 h-4 fill-shopee-orange"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-shopee-orange"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-shopee-orange"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-shopee-orange"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-shopee-orange"></i>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-1">Aprovada por motociclistas e oficinas</p>
+                </div>
+
+                <!-- Filtros Estilo Shopee -->
+                <div class="flex flex-wrap gap-2" id="review-filters">
+                    <button type="button" onclick="filterReviews('all', this)" class="review-filter-btn border border-shopee-orange bg-white text-shopee-orange font-semibold text-xs sm:text-sm px-3.5 py-1.5 rounded-sm transition">
+                        Todas as Avaliações
+                    </button>
+                    <button type="button" onclick="filterReviews('5', this)" class="review-filter-btn border border-gray-200 bg-white text-gray-700 hover:border-shopee-orange text-xs sm:text-sm px-3.5 py-1.5 rounded-sm transition">
+                        5 Estrelas
+                    </button>
+                    <button type="button" onclick="filterReviews('media', this)" class="review-filter-btn border border-gray-200 bg-white text-gray-700 hover:border-shopee-orange text-xs sm:text-sm px-3.5 py-1.5 rounded-sm transition">
+                        Com Fotos
+                    </button>
+                </div>
+            </div>
+
+            <!-- Lista de Depoimentos com Fotos Clicáveis -->
+            <div id="reviews-list" class="divide-y divide-gray-100">
+                <!-- Avaliação 1 (Motoboy) -->
+                <article class="review-item py-4 flex gap-3 sm:gap-4" data-category="5 media">
+                    <div class="w-10 h-10 rounded-full bg-orange-100 text-shopee-orange font-bold flex items-center justify-center shrink-0 text-sm">
+                        R
+                    </div>
+                    <div class="flex-1 space-y-1.5">
+                        <div class="text-xs font-medium text-gray-800">r***s <span class="text-gray-400 font-normal ml-1">• Comprador Verificado</span></div>
+                        <div class="flex items-center text-shopee-orange">
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                        </div>
+                        <div class="text-[11px] text-gray-400">
+                            Variação: Aro 18 - Traseiro/Dianteiro (2.75-18 / 90/90-18)
+                        </div>
+                        <p class="text-xs sm:text-sm text-gray-800 leading-relaxed pt-1">
+                            Rodo todo dia nas entregas com uma Fan 160 e me surpreendi com a espessura da borracha dessa câmara de ar! Bem grossa mesmo, válvula TR4 firme e segura muito bem a calibragem. Chegou super rápido de SP e paguei R$ 17,99 com frete grátis!
+                        </p>
+                        <div class="flex gap-2 pt-2">
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" title="Ver na Shopee">
+                                <img src="https://down-br.img.susercontent.com/file/sg-11134201-8258x-mrt2j7w5sdfs9c@resize_w450_nl.webp" onerror="this.src='https://placehold.co/200x200/18181B/EE4D2D?text=Foto+1'" alt="Foto da câmara de ar" class="w-16 h-16 sm:w-20 sm:h-20 object-cover rounded border border-gray-200 hover:opacity-90">
+                            </a>
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" title="Ver na Shopee">
+                                <img src="https://down-br.img.susercontent.com/file/br-11134207-820l5-mrt28uxi2cxwe6@resize_w450_nl.webp" onerror="this.src='https://placehold.co/200x200/18181B/EE4D2D?text=Foto+2'" alt="Detalhe da válvula" class="w-16 h-16 sm:w-20 sm:h-20 object-cover rounded border border-gray-200 hover:opacity-90">
+                            </a>
+                        </div>
+                        <div class="pt-1 flex items-center gap-1 text-xs text-gray-400">
+                            <i data-lucide="thumbs-up" class="w-3.5 h-3.5"></i>
+                            <span>Útil (48)</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Avaliação 2 (Mecânico de Oficina) -->
+                <article class="review-item py-4 flex gap-3 sm:gap-4" data-category="5 media">
+                    <div class="w-10 h-10 rounded-full bg-teal-100 text-teal-800 font-bold flex items-center justify-center shrink-0 text-sm">
+                        M
+                    </div>
+                    <div class="flex-1 space-y-1.5">
+                        <div class="text-xs font-medium text-gray-800">m***o <span class="text-gray-400 font-normal ml-1">• Comprador Verificado</span></div>
+                        <div class="flex items-center text-shopee-orange">
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                        </div>
+                        <div class="text-[11px] text-gray-400">
+                            Variação: Kit 2 Unidades Aro 18
+                        </div>
+                        <p class="text-xs sm:text-sm text-gray-800 leading-relaxed pt-1">
+                            Tenho oficina de moto e já comprei várias vezes. Borracha butílica de ótima qualidade, não belisca fácil na espátula na hora de montar no aro 18 da Titan e da Factor. Entrega rápida de São Paulo e preço excelente.
+                        </p>
+                        <div class="flex gap-2 pt-2">
+                            <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" title="Ver na Shopee">
+                                <img src="https://down-br.img.susercontent.com/file/br-11134207-820lq-mrt28uxi3ric1e@resize_w450_nl.webp" onerror="this.src='https://placehold.co/200x200/18181B/EE4D2D?text=Foto+3'" alt="Produto embalado" class="w-16 h-16 sm:w-20 sm:h-20 object-cover rounded border border-gray-200 hover:opacity-90">
+                            </a>
+                        </div>
+                        <div class="pt-1 flex items-center gap-1 text-xs text-gray-400">
+                            <i data-lucide="thumbs-up" class="w-3.5 h-3.5"></i>
+                            <span>Útil (35)</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Avaliação 3 (Uso Diário) -->
+                <article class="review-item py-4 flex gap-3 sm:gap-4" data-category="5">
+                    <div class="w-10 h-10 rounded-full bg-amber-100 text-amber-800 font-bold flex items-center justify-center shrink-0 text-sm">
+                        L
+                    </div>
+                    <div class="flex-1 space-y-1.5">
+                        <div class="text-xs font-medium text-gray-800">l***a <span class="text-gray-400 font-normal ml-1">• Comprador Verificado</span></div>
+                        <div class="flex items-center text-shopee-orange">
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-shopee-orange"></i>
+                        </div>
+                        <div class="text-[11px] text-gray-400">
+                            Variação: Aro 18 - Traseiro/Dianteiro (2.75-18 / 90/90-18)
+                        </div>
+                        <p class="text-xs sm:text-sm text-gray-800 leading-relaxed pt-1">
+                            Coloquei na traseira da minha CG 150 e ficou perfeita. Aqui na minha cidade uma câmara dessa custa quase 40 reais, na Shopee saiu por R$ 17,99 com cupom e chegou em 2 dias. Recomendo demais!
+                        </p>
+                        <div class="pt-1 flex items-center gap-1 text-xs text-gray-400">
+                            <i data-lucide="thumbs-up" class="w-3.5 h-3.5"></i>
+                            <span>Útil (29)</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================================================================== -->
+    <!-- 6. RODAPÉ PROFISSIONAL                                                -->
+    <!-- ===================================================================== -->
+    <footer class="max-w-6xl mx-auto px-4 mt-8 pt-6 border-t border-gray-200 text-center text-xs text-gray-500 space-y-2">
+        <div class="flex flex-wrap items-center justify-center gap-4 font-medium text-gray-600">
+            <span>Garantia Shopee</span>
+            <span>•</span>
+            <span>Envio de São Paulo, SP</span>
+            <span>•</span>
+            <span>Frete Grátis com Cupom</span>
+            <span>•</span>
+            <span>Aro 18 Reforçada</span>
+        </div>
+        <p class="max-w-2xl mx-auto leading-relaxed">
+            <strong>Aviso de Transparência:</strong> Esta página apresenta uma oferta selecionada da Shopee Brasil. Ao clicar nas fotos ou nos botões de compra, você será redirecionado(a) com segurança para o anúncio oficial na Shopee para concluir seu pedido.
+        </p>
+    </footer>
+
+    <!-- ===================================================================== -->
+    <!-- 7. BARRA FIXA INFERIOR MOBILE (GARANTIR POR R$ 17,99)                 -->
+    <!-- ===================================================================== -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white border-t border-gray-200 shadow-[0_-4px_12px_rgba(0,0,0,0.08)] flex items-stretch h-14">
+        <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="w-16 flex flex-col items-center justify-center text-shopee-teal border-r border-gray-200 hover:bg-gray-50 transition">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+            <span class="text-[10px] text-gray-600 mt-0.5">Chat</span>
+        </a>
+        <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="w-16 flex flex-col items-center justify-center text-shopee-teal hover:bg-gray-50 transition">
+            <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+            <span class="text-[10px] text-gray-600 mt-0.5">Carrinho</span>
+        </a>
+        <a href="https://s.shopee.com.br/3LSdTvEmzx" target="_blank" rel="noopener noreferrer" class="flex-1 bg-shopee-orange hover:bg-shopee-orangeHover text-white font-extrabold text-sm flex flex-col items-center justify-center leading-tight transition">
+            <span id="mobile-cta-text">Garantir por R$ 17,99</span>
+            <span class="text-[11px] font-medium text-yellow-100">Frete Grátis com Cupom</span>
+        </a>
+    </div>
+
+    <!-- TOAST DE CÓPIA DE LINK -->
+    <div id="toast-notification" class="fixed top-20 right-4 z-50 hidden bg-gray-900 text-white text-xs font-medium px-4 py-2.5 rounded shadow-lg">
+        Link oficial da oferta copiado!
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- SCRIPTS DE INTERATIVIDADE (VÍDEO, GALERIA, VARIAÇÕES E CRONÔMETRO)    -->
+    <!-- ===================================================================== -->
+    <script>
+        const LINK_AFILIADO_SHOPEE = "https://s.shopee.com.br/3LSdTvEmzx";
+
+        // Inicializa ícones Lucide
+        lucide.createIcons();
+
+        // URLs das 3 fotos oficiais para alternância nas miniaturas 2, 3 e 4
+        const productPhotos = [
+            "https://down-br.img.susercontent.com/file/sg-11134201-8258x-mrt2j7w5sdfs9c@resize_w450_nl.webp",
+            "https://down-br.img.susercontent.com/file/br-11134207-820l5-mrt28uxi2cxwe6@resize_w450_nl.webp",
+            "https://down-br.img.susercontent.com/file/br-11134207-820lq-mrt28uxi3ric1e@resize_w450_nl.webp"
+        ];
+
+        let quantity = 1;
+        let isFavorited = true;
+
+        // Alterna entre Vídeo Oficial (índice 0) e Fotos em Alta Qualidade (índices 1, 2, 3)
+        function selectMedia(index) {
+            const videoStage = document.getElementById('video-stage');
+            const imageStage = document.getElementById('image-stage');
+            const videoEl = document.getElementById('product-video');
+            const mainImgEl = document.getElementById('main-product-image');
+
+            // Atualiza bordas das 4 miniaturas
+            document.querySelectorAll('.media-thumb').forEach((thumb, idx) => {
+                if (idx === index) {
+                    thumb.classList.remove('border', 'border-gray-200', 'opacity-85');
+                    thumb.classList.add('border-2', 'border-shopee-orange', 'ring-1', 'ring-shopee-orange', 'opacity-100');
+                } else {
+                    thumb.classList.remove('border-2', 'border-shopee-orange', 'ring-1', 'ring-shopee-orange', 'opacity-100');
+                    thumb.classList.add('border', 'border-gray-200', 'opacity-85');
+                }
+            });
+
+            if (index === 0) {
+                // Exibe o player de vídeo oficial
+                imageStage.classList.add('hidden');
+                videoStage.classList.remove('hidden');
+                if (videoEl && videoEl.paused) {
+                    videoEl.play().catch(() => {});
+                }
+            } else {
+                // Pausa o vídeo e exibe a foto ampliada clicável
+                if (videoEl && !videoEl.paused) {
+                    videoEl.pause();
+                }
+                videoStage.classList.add('hidden');
+                imageStage.classList.remove('hidden');
+                mainImgEl.src = productPhotos[index - 1];
+            }
+        }
+
+        // Fallback caso o vídeo não carregue
+        function handleVideoFallback() {
+            const videoEl = document.getElementById('product-video');
+            const fallbackEl = document.getElementById('video-fallback');
+            if (videoEl) videoEl.classList.add('hidden');
+            if (fallbackEl) fallbackEl.classList.remove('hidden');
+        }
+
+        // Seleção interativa de Modelo / Kit
+        function selectModel(button, price, oldPrice) {
+            document.querySelectorAll('.variant-model-btn').forEach(btn => {
+                btn.classList.remove('border-2', 'border-shopee-orange', 'bg-shopee-orangeLight', 'text-shopee-orange', 'font-semibold');
+                btn.classList.add('border', 'border-gray-300', 'bg-white', 'text-gray-700', 'font-medium');
+            });
+            button.classList.remove('border', 'border-gray-300', 'bg-white', 'text-gray-700', 'font-medium');
+            button.classList.add('border-2', 'border-shopee-orange', 'bg-shopee-orangeLight', 'text-shopee-orange', 'font-semibold');
+
+            // Atualiza preços exibidos
+            document.getElementById('display-price').textContent = 'R$ ' + price;
+            document.getElementById('display-old-price').textContent = 'R$ ' + oldPrice;
+            document.getElementById('cta-btn-price').textContent = 'R$ ' + price;
+            document.getElementById('mobile-cta-text').textContent = 'Garantir por R$ ' + price;
+        }
+
+        // Controle de Quantidade
+        function changeQty(delta) {
+            quantity = Math.max(1, Math.min(20, quantity + delta));
+            document.getElementById('qty-value').textContent = quantity;
+        }
+
+        // Favoritar
+        function toggleFavorite() {
+            isFavorited = !isFavorited;
+            const icon = document.getElementById('fav-icon');
+            const count = document.getElementById('fav-count');
+            if (isFavorited) {
+                icon.classList.add('fill-shopee-orange');
+                count.textContent = '2,8 mil';
+            } else {
+                icon.classList.remove('fill-shopee-orange');
+                count.textContent = '2,7 mil';
+            }
+        }
+
+        // Filtro de avaliações
+        function filterReviews(category, button) {
+            document.querySelectorAll('.review-filter-btn').forEach(btn => {
+                btn.classList.remove('border-shopee-orange', 'text-shopee-orange', 'font-semibold');
+                btn.classList.add('border-gray-200', 'text-gray-700');
+            });
+            button.classList.remove('border-gray-200', 'text-gray-700');
+            button.classList.add('border-shopee-orange', 'text-shopee-orange', 'font-semibold');
+
+            document.querySelectorAll('.review-item').forEach(item => {
+                const cats = item.getAttribute('data-category');
+                if (category === 'all' || cats.includes(category)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Cronômetro regressivo
+        let totalSeconds = (1 * 3600) + (24 * 60) + 50;
+        function updateCountdown() {
+            if (totalSeconds <= 0) totalSeconds = 5400;
+            totalSeconds--;
+
+            const hrs = String(Math.floor(totalSeconds / 3600)).padStart(2, '0');
+            const mins = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, '0');
+            const secs = String(totalSeconds % 60).padStart(2, '0');
+
+            ['top-hours', 'box-hours'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = hrs;
+            });
+            ['top-minutes', 'box-minutes'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = mins;
+            });
+            ['top-seconds', 'box-seconds'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = secs;
+            });
+        }
+        setInterval(updateCountdown, 1000);
+
+        // Copiar link oficial
+        function copyPageLink() {
+            const tempInput = document.createElement('input');
+            tempInput.value = LINK_AFILIADO_SHOPEE;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            const toast = document.getElementById('toast-notification');
+            toast.classList.remove('hidden');
+            setTimeout(() => toast.classList.add('hidden'), 3000);
+        }
+    </script>
+</body>
+</html>
